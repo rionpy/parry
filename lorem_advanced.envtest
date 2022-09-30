@@ -1,0 +1,7 @@
+QUIS='quis'
+export Q=${BAZ:-'${QUIS}'}
+export QQ=${BAZ:-\'${QUIS}\'}
+export FOO="${BAZ:-\'iaculis\'}"
+BAR=fringilla
+export   	 BAZ0=${Q:+foo'bar'}
+BAZ1="${Q:+foo'bar'}"
